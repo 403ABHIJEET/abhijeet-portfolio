@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { @apply bg-chalk text-ink font-body antialiased; }
+:focus-visible { outline: 3px solid #FF6B2C; outline-offset: 3px; }
+::selection { background: #2B3BFF; color: #fff; }
+
+/* The one orchestrated moment: hero lines rise into place on load. */
+@keyframes rise { from { transform: translateY(105%); } to { transform: translateY(0); } }
+.rise { display: inline-block; animation: rise 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .rise { animation: none; }
+}
