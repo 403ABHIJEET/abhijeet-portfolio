@@ -1,5 +1,5 @@
 import Poster from "@/components/Poster";
-import PhoneMock from "@/components/PhoneMock";
+import PhoneMock from "@/components/BrowserMock";
 import { profile, projects, skills, type Project } from "@/lib/data";
 
 function ProjectBlock({ p, flip }: { p: Project; flip?: boolean }) {
@@ -96,17 +96,18 @@ export default function Home() {
         {/* Contact */}
         <section id="contact" className="py-20 md:py-32">
           <h2 className="font-display text-[clamp(2.5rem,7vw,6rem)] font-extrabold leading-none">Have a project in mind?</h2>
+          <h3>You may conatct me through my Email below</h3>
           <a
             href={`mailto:${profile.email}`}
             className="mt-8 inline-block border-b-4 border-cobalt font-display text-2xl font-bold hover:text-cobalt md:text-4xl"
           >
             {profile.email}
           </a>
-          <ul className="mt-8 flex gap-6 font-medium">
+          {/* <ul className="mt-8 flex gap-6 font-medium">
             {profile.links.map((l) => (
               <li key={l.label}><a href={l.href} className="underline underline-offset-4 hover:text-cobalt">{l.label}</a></li>
             ))}
-          </ul>
+          </ul> */}
         </section>
       </main>
 

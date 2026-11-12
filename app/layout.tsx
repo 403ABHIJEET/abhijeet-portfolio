@@ -6,7 +6,7 @@ const display = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-disp
 const body = Figtree({ subsets: ["latin"], variable: "--font-body" });
 
 export const metadata: Metadata = {
-  title: "Your Name | Graphic Designer & UI/UX",
+  title: "Abhijeet Kumar | Graphic Designer & UI/UX",
   description: "Portfolio of a graphic designer who also designs and builds interfaces.",
 };
 

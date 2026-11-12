@@ -1,13 +1,13 @@
 // Edit everything here: your name, links and project details.
 export const profile = {
-  name: "Your Name",
-  email: "hello@yourname.com",
+  name: "Abhijeet Kumar",
+  email: "abhijeet8745@gmail.com",
   location: "Delhi, India",
-  links: [
-    { label: "Behance", href: "https://behance.net/yourname" },
-    { label: "Dribbble", href: "https://dribbble.com/yourname" },
-    { label: "LinkedIn", href: "https://linkedin.com/in/yourname" },
-  ],
+  // links: [
+  //   { label: "Behance", href: "https://behance.net/yourname" },
+  //   { label: "Dribbble", href: "https://dribbble.com/yourname" },
+  //   { label: "LinkedIn", href: "https://linkedin.com/in/yourname" },
+  // ],
 };
 
 export type Project = {
@@ -25,7 +25,7 @@ export const projects: Project[] = [
   {
     id: "graphic",
     kind: "Graphic design",
-    title: "Kala Fest: poster and identity",
+    title: "Malhar Fest: poster and identity",
     year: "2026",
     role: "Brand identity, poster series, social kit",
     summary:
@@ -39,22 +39,28 @@ export const projects: Project[] = [
   },
   {
     id: "uiux",
-    kind: "UI/UX design",
-    title: "Fern: a plant-care app",
+    kind: "Web design & development",
+    title: "Pranj Legal Associates: a law firm website",
     year: "2026",
-    role: "Research, UX flows, UI design, prototype",
+    role: "UI design, front-end development, deployment",
     summary:
-      "A mobile app that tells new plant owners exactly what to do today. I researched, designed and prototyped it, then tested it with 8 first-time plant owners.",
+      "A website for a legal practice that explains its services in plain language and gives visitors a simple way to book a consultation. I designed, built and deployed it.",
     points: [
-      { heading: "The problem", text: "Beginners forget to water, or water too much, and give up within a month." },
-      { heading: "The idea", text: "One clear task per plant per day, with a one-tap way to mark it done." },
-      { heading: "The result", text: "7 of 8 testers finished their first care task in under 20 seconds." },
+      {
+        heading: "The problem",
+        text: "Legal concerns feel stressful and confusing, and most law firm sites are cluttered and hard to act on.",
+      },
+      {
+        heading: "The idea",
+        text: "Clear practice areas, a short step-by-step process, and one simple enquiry form on every path.",
+      },
+      // { heading: "The result", text: "Add a real outcome here, e.g. live site, client feedback, load speed." },
     ],
-    tools: ["Figma", "FigJam", "Next.js", "TypeScript"],
+    tools: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
   },
 ];
 
 export const skills = {
-  design: ["Brand identity", "Poster and print", "Typography", "Illustration", "Layout"],
-  product: ["User research", "Wireframes", "Prototyping in Figma", "Design systems", "Front-end in Next.js"],
+  design: ["Brand identity", "Poster and print", "Illustration", "Layout"],
+  product: ["User research", "Prototyping in Figma", "Design systems", "Front-end in Next.js"],
 };

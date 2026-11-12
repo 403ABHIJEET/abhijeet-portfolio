@@ -1,18 +1,20 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}"],
+  content: [
+    "./app/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    // "./src/**/*.{ts,tsx}", // uncomment if you use a src/ folder
+  ],
   theme: {
     extend: {
       colors: {
-        cobalt: "#2B3BFF",
-        chalk: "#EEF0F4",
-        ink: "#16161D",
-        tangerine: "#FF6B2C",
-        lilac: "#C9B8FF",
+        navy: "#0f1f3d",
+        gold: "#c9a24b",
+        ivory: "#faf7f0",
       },
       fontFamily: {
-        display: ["var(--font-display)", "system-ui", "sans-serif"],
+        display: ["var(--font-display)", "Playfair Display", "Georgia", "serif"],
         body: ["var(--font-body)", "system-ui", "sans-serif"],
       },
     },
