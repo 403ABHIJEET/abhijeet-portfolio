@@ -33,7 +33,7 @@ export const projects: Project[] = [
     points: [
       { heading: "The problem", text: "Past festival posters looked different every year and nobody remembered them." },
       { heading: "The idea", text: "A kit of four shapes that stack, overlap and crop to make a new poster each day." },
-      { heading: "The result", text: "Ticket sales opened 2 weeks early and the posters were reused by three partner colleges." },
+      // { heading: "The result", text: "Ticket sales opened 2 weeks early and the posters were reused by three partner colleges." },
     ],
     tools: ["Illustrator", "Photoshop", "InDesign"],
   },
