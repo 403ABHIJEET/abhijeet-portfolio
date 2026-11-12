@@ -12,7 +12,7 @@ const config: Config = {
         navy: "#0f1f3d",
         gold: "#c9a24b",
         ivory: "#faf7f0",
-        chalk: "#F5F1E8", // use your actual background color
+        chalk: "#DCE8FF", // use your actual background color
         ink: "#111111",
       },
       fontFamily: {
